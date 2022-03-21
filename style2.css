@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    font-size: 15px;
+}
+
+.head_parent {
+    margin: 0 auto;
+    width: 930px;
+}
+
+#head {
+    background-image: url("images/bg.jpg");
+    height: 118px;
+    border-bottom: 1px solid #ccc;
+}
+
+.parent_social {
+    float: right;
+}
+
+.social {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 15%;
+    margin-right: 1px;
+}
+
+.social a {
+    opacity: 0.5;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.nav {
+    list-style-type: none;
+    width: 55%;
+}
+
+.nav li {
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.nav li:first-child {
+    padding-left: 2%;
+}
+
+.nav li a {
+    width: 80%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    padding: 15%;
+}
+
+li a:hover {
+    background-color: yellow;
+}
+
+.active {
+    background-color: #27b2b2;
+
+}
+
+.main {
+    background-color: #ccc;
+    clear: both;
+    padding: 1.5%;
+    height: 1000px;
+}
+
+.about {
+    background-image: url('images/banner1.jpg');
+    width: 900px;
+    height: 300px;
+}
+
+.about + div h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #aaa;
+    color: #27b2b2;
+    padding: 2% 1% 1.5% 1%;
+    margin: 0 auto;
+}
+
+.about + div h3 + div {
+    padding: 1.5% 1% 5%;
+    text-align: justify;
+    font-size: 0.75em;
+}
+
+
+.gallery {
+    position: absolute;
+    padding-left:6%;
+    /*    left:13%;*/
+}
+
+.mod_1 {
+    position: relative;
+}
+
+.mod_2 {
+    position: relative;
+    left: 380px;
+    bottom: 173px;
+}
+
+
+.mod_3 {
+    position: relative;
+    bottom: 160px;
+}
+
+.mod_4 {
+    position: relative;
+    left: 380px;
+    bottom: 333px;
+}
+
+.text {
+    font-size: 0.75em;
+    position: relative;
+    top: 400px;
+    text-align: justify;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 4%;
+}
+
+.foot {
+    text-align: center;
+    position: relative;
+    top: 400px;
+    padding-top: 2%;
+    padding-bottom:1%;
+
+}
